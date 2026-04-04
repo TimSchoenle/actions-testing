@@ -1,0 +1,2 @@
+# Test file for auto-approve-pr (negative)
+Created at: Sat Apr  4 12:38:49 UTC 2026
