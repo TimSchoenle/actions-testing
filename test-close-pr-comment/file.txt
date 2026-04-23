@@ -1,0 +1,2 @@
+Test content for closing PR with comment close-pr-test-60-1
+Thu Apr 23 10:02:54 UTC 2026
