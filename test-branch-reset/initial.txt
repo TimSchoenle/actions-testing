@@ -1,0 +1,3 @@
+Initial content for create-pr-test-736-1
+Second content line
+This should be reset away
