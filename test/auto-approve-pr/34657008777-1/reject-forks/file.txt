@@ -1,0 +1,1 @@
+content for same-repository with reject_forks
