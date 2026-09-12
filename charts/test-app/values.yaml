@@ -1,0 +1,5 @@
+replicaCount: 1
+image:
+  repository: ghcr.io/example/test-app
+  tag: "v0.0.1@sha256:olddigest"
+  pullPolicy: IfNotPresent
