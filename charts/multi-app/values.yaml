@@ -2,13 +2,13 @@ services:
   api:
     # -- Image tag, pinned by digest.
     image:
-      tag: v0.4.1@sha256:aaa
+      tag: v1.0.0@sha256:1111111111111111111111111111111111111111111111111111111111111111
   worker:
     image:
-      tag: v0.4.1@sha256:bbb
+      tag: v0.9.4@sha256:2222222222222222222222222222222222222222222222222222222222222222
 bootstrap:
   image:
-    tag: v0.4.1@sha256:ccc
+    tag: v2.1.0@sha256:3333333333333333333333333333333333333333333333333333333333333333
 # A third-party image this chart does not release.
 postgresql:
   image:
