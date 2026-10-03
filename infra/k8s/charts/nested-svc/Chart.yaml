@@ -1,4 +1,4 @@
 apiVersion: v2
 name: nested-svc
-version: 3.0.0
-appVersion: "v1.0.0"
+version: 3.0.1
+appVersion: v5.0.0
