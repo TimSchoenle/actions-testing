@@ -1,4 +1,4 @@
 apiVersion: v2
 name: bump-app
-version: 2.5.9
-appVersion: "v0.0.0"
+version: 2.5.10
+appVersion: v1.0.0-bump1
