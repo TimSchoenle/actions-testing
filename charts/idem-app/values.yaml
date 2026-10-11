@@ -1,0 +1,3 @@
+image:
+  repository: ghcr.io/example/idem-app
+  tag: "v0.0.1@sha256:init"
