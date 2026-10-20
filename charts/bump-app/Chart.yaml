@@ -1,0 +1,4 @@
+apiVersion: v2
+name: bump-app
+version: 1.2.3-rc.1
+appVersion: "v0.0.0"
