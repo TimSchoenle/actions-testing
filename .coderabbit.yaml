@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://storage.googleapis.com/coderabbit_public_assets/schema.v2.json
+tone_instructions: "Direct, no filler, no praise."
+
+reviews:
+  profile: assertive
+
+  auto_review:
+    # Scratch repository for the TimSchoenle/actions e2e suites. Every automated pull request is
+    # opened by the test app; a review comment on one would break the suites that count PR comments.
+    ignore_usernames:
+      - "actions-test-bot[bot]"
+      - "actions-test-bot"
