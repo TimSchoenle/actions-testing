@@ -1,0 +1,21 @@
+# Temporary probe: does CodeRabbit start a review when `@coderabbitai review` is posted by
+# github-actions[bot] (the GITHUB_TOKEN identity)? Delete with the branch.
+name: CodeRabbit Trigger Probe
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+permissions: {}
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Post review command as github-actions[bot]
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        run: gh pr comment "$PR_URL" --body '@coderabbitai review'
