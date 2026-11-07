@@ -1,0 +1,15 @@
+services:
+  api:
+    # -- Image tag, pinned by digest.
+    image:
+      tag: v0.4.1@sha256:aaa
+  worker:
+    image:
+      tag: v0.4.1@sha256:bbb
+bootstrap:
+  image:
+    tag: v0.4.1@sha256:ccc
+# A third-party image this chart does not release.
+postgresql:
+  image:
+    tag: 18-alpine@sha256:ddd
