@@ -1,0 +1,3 @@
+image:
+  repository: ghcr.io/example/nested-svc
+  tag: "v1.0.0@sha256:old"
