@@ -1,0 +1,4 @@
+apiVersion: v2
+name: idem-app
+version: 1.0.0
+appVersion: "v0.0.1"
